@@ -1,0 +1,17 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #333;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+* {
+	box-sizing: border-box; /* Cause the browser to honor the declared width values and also give us the padding */
+}
+
+a {
+	color: $mainOrange;
+}
