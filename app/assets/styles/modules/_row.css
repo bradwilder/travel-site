@@ -5,8 +5,16 @@
 		margin-right: -65px; /* 1/2 Negative margin on row with gutters to counteract padding on last column */
 	}
 	
+	&--gutters-large {
+		margin-right: -100px;
+	}
+	
 	&--gutters > div {
 		padding-right: 65px;
+	}
+	
+	&--gutters-large > div {
+		padding-right: 100px;
 	}
 	
 	&__b-margin-until-medium {
@@ -36,6 +44,11 @@
 		&__medium-8--smaller {
 			float: left;
 			width: 63%;
+		}
+		
+		&__medium-6 {
+			float: left;
+			width: 50%
 		}
 	}
 }
