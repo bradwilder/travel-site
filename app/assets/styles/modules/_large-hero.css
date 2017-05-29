@@ -8,6 +8,11 @@
 		transform: translateY(-50%); /* 1/2 Vertically centering */
 		width: 100%; /* 1/2 Horizontally centering */
 		text-align: center; /* 1/2 Horizontally centering */
+		padding-top: 88px; /* Added 60px to bump it down about the size of the header; this is a little more than that because he thought it was too close for small screens */
+		
+		@mixin atMedium {
+			padding-top: 60px; /* Added 60px to bump it down about the size of the header */
+		}
 	}
 	
 	&__image {
