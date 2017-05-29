@@ -50,6 +50,10 @@
 			padding: 12px 0; /* He used 12px to center vertically here, by just eyeballing and adjusting */
 			font-size: 1rem;
 			background: transparent;
+			
+			&.is-current-link {
+				color: #fabb69;
+			}
 		}
 	}
 }
